@@ -2,7 +2,7 @@ const {
   sessionSelection,
   seatSelection,
   bookButton,
-} = require("./selectors.js");
+} = require("./lib/selectors.js");
 const { clickElement, getText } = require("./lib/commands.js");
 
 let page;

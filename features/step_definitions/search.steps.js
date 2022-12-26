@@ -6,7 +6,7 @@ const {
   sessionSelection,
   seatSelection,
   bookButton,
-} = require("../../selectors");
+} = require("../../lib/selectors");
 const { clickElement, getText } = require("../../lib/commands");
 
 Before(async function () {
